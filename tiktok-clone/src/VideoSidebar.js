@@ -12,18 +12,18 @@ const VideoSidebar = ({likes,comments,shares})=>{
         <div className={"videoSidebar"}>
             <div className="videoSidebar__button">
                 {!liked ? (
-                    <FavoriteBorderIcon onClick={()=> setLiked(prev => !prev)} fontSize={"large"} />
+                    <FavoriteBorderIcon onClick={()=> setLiked(prev => !prev)} fontSize={"small"} />
                 ):(
-                    <FavoriteIcon onClick={()=> setLiked(prev => !prev)} fontSize={"large"} />
+                    <FavoriteIcon onClick={()=> setLiked(prev => !prev)} fontSize={"small"} />
                 )}
                 <p>{liked ? likes +1 : likes }</p>
             </div>
             <div className="videoSidebar__button">
-                <MessageIcon fontSize={"large"} />
+                <MessageIcon fontSize={"small"} />
                 <p>{comments}</p>
             </div>
             <div className="videoSidebar__button">
-                <ShareIcon fontSize={"large"} />
+                <ShareIcon fontSize={"small"} />
                 <p>{shares}</p>
             </div>
         </div>

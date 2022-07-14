@@ -10,7 +10,7 @@ const VideoFooter = ({channel, description , song})=>{
                 <p>{description}</p>
                 <div className="videoFooter_ticker">
                     <MusicNoteIcon className={"videoFooter__Icon"} />
-                    <Ticker mode={"smooth"} move speed={2} >
+                    <Ticker mode={"smooth"} >
                         {({ index }) => (
                             <>
                                 <p style={{ paddingRight: "0.5em" }}>

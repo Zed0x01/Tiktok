@@ -9,9 +9,9 @@ html{
 }
 .app_videos{
     position: relative;
-    height: 750px;
+    height: 600px;
     width: 80%;
-    max-width: 500px;
+    max-width: 338px;
     border-radius: 20px;
     overflow: scroll;
     scroll-snap-type: y mandatory;
